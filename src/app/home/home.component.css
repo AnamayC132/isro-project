@@ -25,13 +25,17 @@
         color: rgb(0, 0, 0);
     }
 
- .custom-card{
+ .custom-card1{
   background-color: black;
   padding: 16px -1px;
  cursor: pointer;
  user-select: none;
+ opacity: 0.5;
  
 }
+
+
+
   .customIcon{
     /* font-size: 210px; */
     color: rgb(255, 255, 255);

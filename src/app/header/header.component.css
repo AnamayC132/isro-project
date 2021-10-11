@@ -6,6 +6,7 @@
     top: 0px;
     background-color: rgba(0, 0, 0, 0.979);
     height: 82px;
+    opacity: 0.7;
   }
 .mat-icon{
     color: rgb(255, 255, 255);
@@ -16,7 +17,7 @@
     font-family: fantasy;
 }
 .headertitle.page{
-    color: rgb(43, 121, 223);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: fantasy;
 }
@@ -28,7 +29,7 @@
 }
 .mobile_header{
     transform: translateX(-68px);
-    color:rgb(43, 121, 223);
+    color:rgb(255, 255, 255);
     font-size: 18px;
     font-family: fantasy;
 }

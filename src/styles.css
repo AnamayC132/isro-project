@@ -7,7 +7,7 @@ html, body { height: 100%;
 body { margin: 0px; 
     padding: 0px;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background: url('assets/background/mombaby.jpg') no-repeat;
+    background: url('assets/background/bg.jpg') no-repeat;
     /* width: device-width; */
     height: 100%;
     background-size: cover;

@@ -1,0 +1,74 @@
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+  color: white;
+}
+.example-header-image {
+  background-image: url("/assets/logo/logoJpg.jpg");
+  background-size: cover;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}    
+.mat-expansion-panel-header{
+   background: rgba(0, 0, 0, 0.6);
+}
+.mat-expansion-panel{
+  background: rgba(0, 0, 0, 0.2);
+  
+}
+
+.example-headers-align .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #df2270;
+  color: white;
+}
+
+.fa-youtube {
+  background: #f70f0f;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.example-card {
+  max-width: 400px;
+  margin-top: 17px;
+}
+
+
+.custombutton{
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+.custom-card  .mat-card-title {
+  font-size: 17px;
+  font-weight: 500;
+}
+.custom-card {
+  background: rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+ 
+}
+.headertitle{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: fantasy;
+}

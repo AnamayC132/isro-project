@@ -1,0 +1,53 @@
+
+
+
+
+<mat-accordion class="example-headers-align">
+  
+  <mat-expansion-panel [expanded]="step ===0" (opened)="setStep(0)" hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <div class="headertitle">LUNAR MISSION</div>
+      </mat-panel-title>
+      <mat-panel-description>
+ <div class="headertitle">CHANDRAYAAN 2</div>
+
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+   
+
+
+
+        <mat-card class="custom-card mat-elevation-z4">
+
+          <img mat-card-image src="/assets/launcher.png">
+        </mat-card>
+        <mat-card class="custom-card mat-elevation-z4">
+
+          <img mat-card-image src="/assets/orbiter.png">
+        </mat-card>
+        <mat-card class="custom-card mat-elevation-z4">
+
+          <img mat-card-image src="/assets/lander.png">
+        </mat-card>
+        <mat-card class="custom-card mat-elevation-z4">
+
+          <img mat-card-image src="/assets/rover.png">
+        </mat-card>
+   
+
+   
+
+
+    <mat-action-row>
+      
+      <button mat-button class="custombutton" (click)="nextStep()">Collapse</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+
+
+
+
+
+
+</mat-accordion>

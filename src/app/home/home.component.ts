@@ -11,12 +11,13 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router) { }
   currentUrl: any;
   pages = new Map<string, string>();
-  baseUrl:string="assets/home/";
+  baseUrl:string="assets/";
   ngOnInit(): void {
-    this.pages.set("brush", "/art"); 
-    this.pages.set("live_tv", "/entertainment");
-    this.pages.set("games", "/gaming");
-    this.pages.set("face", "/anime");
+    this.pages.set("c", "/isro"); 
+    this.pages.set("a", "/moon");
+    this.pages.set("b", "/mars");
+    // this.pages.set("live_tv", "/entertainment");
+  
     this.router.events.subscribe((event: Event) => {
 
       if (event instanceof NavigationEnd) {
